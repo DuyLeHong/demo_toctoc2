@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "549622734220",
+    "project_id": "fir-toctoc",
+    "storage_bucket": "fir-toctoc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549622734220:android:afb8fea6ecb5639dce8aa9",
+        "android_client_info": {
+          "package_name": "com.example.demo_toctoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549622734220-i2aji6ovd28kssk1m2b3duh41s3usru4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxzUUyQldm6xFvScGIy-oZdCMHuVok2Ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549622734220-i2aji6ovd28kssk1m2b3duh41s3usru4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

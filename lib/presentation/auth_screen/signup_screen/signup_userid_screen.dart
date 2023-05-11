@@ -19,6 +19,7 @@ class SignupUseridScreen extends StatefulWidget {
   State<SignupUseridScreen> createState() => _SignupUseridScreenState();
 }
 
+// MVC - controller
 class _SignupUseridScreenState extends State<SignupUseridScreen> {
   var loginSignupStyle = LoginSignupStyle();
   TextEditingController useridController = TextEditingController();
@@ -34,6 +35,8 @@ class _SignupUseridScreenState extends State<SignupUseridScreen> {
       email: widget.emailController.text.trim(),
       password: widget.passwordController.text.trim(),
     );
+
+    // MVC - model
     CollectionReference users = FirebaseFirestore.instance.collection('users');
     int randomUserNumber = Random().nextInt(9000000) + 1000000;
     users
@@ -53,6 +56,7 @@ class _SignupUseridScreenState extends State<SignupUseridScreen> {
     navigatorKey.currentState!.popUntil((route) => route.isFirst);
   }
 
+  // MVC - View
   @override
   Widget build(BuildContext context) {
     return Scaffold(

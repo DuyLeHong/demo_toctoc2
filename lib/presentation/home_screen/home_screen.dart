@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import '../../resources/colors.dart';
 import '../../resources/styles.dart';
 
+// Layered Architecture - Presentation Layer: Tầng hiển thị dữ liệu lên giao diện người dùng
+
 class HomeScreen extends StatelessWidget {
   HomeScreen({Key? key}) : super(key: key);
   var homeStyle = HomeStyle();

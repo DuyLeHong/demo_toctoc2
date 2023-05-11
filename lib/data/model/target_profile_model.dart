@@ -1,3 +1,6 @@
+
+// MVC - model
+
 class DemoTargetUser {
   String userName = 'other_username';
   String userDescription = 'ABC Entertainment. 5-year contract.\nGood.\nBad.';

@@ -1,6 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+// Data Access Layer: Tầng truy cập và lưu trữ dữ liệu.
+
 class DemoUser {
   var user = FirebaseAuth.instance.currentUser!;
   String userName = 'my_username';

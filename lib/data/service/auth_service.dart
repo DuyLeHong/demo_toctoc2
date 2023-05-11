@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 
 import '../../main.dart';
 
+// MVC - controller
 class AuthService {
   static signupWithEmail({
     required BuildContext context,

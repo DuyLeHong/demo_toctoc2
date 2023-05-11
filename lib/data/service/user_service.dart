@@ -5,6 +5,8 @@ import 'package:demo_toctoc/presentation/profile_screen/edit_profile_screen/edit
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
+// Business Layer: Tầng xử lý logic nghiệp vụ của hệ thống.
+
 class UserService {
   static createUserWithEmail({
     required email,
